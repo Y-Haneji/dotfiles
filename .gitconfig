@@ -1,0 +1,16 @@
+[user]
+	name = Haneji Yuto
+	email = 49736402+Y-Haneji@users.noreply.github.com
+[core]
+	editor = open -t -n -W
+	excludesfile = /Users/yuto/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/yuto/.stCommitMsg
+[init]
+	defaultBranch = main
